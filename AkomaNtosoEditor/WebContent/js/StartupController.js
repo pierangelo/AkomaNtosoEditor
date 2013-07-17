@@ -18,7 +18,8 @@
  * 
  */
 
-var logger = new Logger().setDebug(true);
+var logger = new Logger();
+logger.setDebug(true);
 
 var Utility = new Utility();
 var ResourceManager = new ResourceManager();
